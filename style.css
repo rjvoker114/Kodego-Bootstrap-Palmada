@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap'); 
+
+body{
+    font-family: "Spline Sans",sans-serif;
+    color: #797979;
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: black;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+
+a :hover{
+    color: #40404f;
+
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.btn{
+    border-radius: 0;
+    padding: 14px 38px;
+}
+
+.btn-brand {
+    color: white;
+    font-weight: 500;
+    background-color: #ababab;
+    border-color: #ababab;
+}
+
+.btn-brand :hover{
+    background-color: #ababab;
+    border-color: #ababab;
+    color: white;   
+}
+
+.slide1{
+background: linear-gradient(rgb(0, 0, 0,0.5),rgba(0, 0, 0, 0.5)),url(heroimage1.png);
+}
+
+.slide2{
+    background: linear-gradient(rgb(0, 0, 0,0.5),rgba(0, 0, 0, 0.5)),url(heroimage2.jpg);
+}
+
+.slide3{
+    background: linear-gradient(rgb(0, 0, 0,0.5),rgba(0, 0, 0, 0.5)),url(heroimage3.jpg);
+}
+
+
+.bg-cover{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: rgb(0, 0, 0,0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+
+/* About */
+
+#about .divider{
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: #ababab;
+    
+}
+
+.container .col-lg-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Service */
+
+.image-container {
+    position: relative;
+    width: 400px; 
+    height: 400px; 
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 20px;
+  }
+  .image-container:hover .overlay {
+    opacity: 1;
+  }
+
+  /* Contact */
+
+  .contact-form {
+    background: url(contact.jpg);
+    background-size: 400px 450px;
+    padding: 50px;
+    border-radius: 5px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  .contact-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+  }
+
+  .contact-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+
+  /* Menu */
+  .card {
+    margin: 0 auto;
+    text-align: center;
+
+  }
+  
+
+  .card {
+    margin-bottom: 20px;
+  }
